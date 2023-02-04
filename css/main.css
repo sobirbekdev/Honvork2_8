@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --h3-color:rgb(179 170 170);
+}
+
+.contoiner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  font-family: Fira Sans Extra Condensed;
+}
+
+/* fira-sans-extra-condensed-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fira Sans Extra Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fira-sans-extra-condensed-v10-latin-regular.woff2") format("woff2"), url("../fonts/fira-sans-extra-condensed-v10-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fira-sans-extra-condensed-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Fira Sans Extra Condensed";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/fira-sans-extra-condensed-v10-latin-600.woff2") format("woff2"), url("../fonts/fira-sans-extra-condensed-v10-latin-600.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+header ul {
+  background-color: rgb(69, 95, 180);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+header ul li {
+  color: #fff;
+  list-style-type: disc;
+}
+header .icon__img {
+  color: #fff;
+  width: 25px;
+}
+
+.section__box {
+  margin-top: 50px;
+}
+.section__box h3 {
+  color: var(--h3-color);
+}
+.section__box p {
+  width: 500px;
+  padding: 15px 15px;
+  background-color: rgb(145, 202, 216);
+}
+
+.section__box2 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.section__box2 h3 {
+  color: var(--h3-color);
+}
+.section__box2 p {
+  width: 500px;
+  padding: 15px 15px;
+  background-color: rgb(145, 202, 216);
+}
+
+.section__box3 {
+  margin-top: 50px;
+}
+.section__box3 h3 {
+  color: var(--h3-color);
+}
+.section__box3 p {
+  background-color: rgb(145, 202, 216);
+  padding: 15px 15px;
+  width: 100px;
+}
+
+.section__box4 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.section__box4 p {
+  padding: 15px 15px;
+  width: 500px;
+  background-color: rgb(228, 129, 129);
+}
+
+#footer__line {
+  margin-top: 50px;
+}
+
+.footer__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 15px 15px;
+}
+.footer__box button {
+  padding: 5px 5px;
+  border: none;
+  background-color: #fff;
+}
+.footer__box button a {
+  color: #141ed2;
+  font-size: 16px;
+}
+
+input[type=text],
+[type=password] {
+  margin-bottom: 20px;
+  margin-top: 8px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,30 @@
+#footer__line{
+    margin-top: 50px;
+}
+.footer__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px 15px;
+    
+    button{
+        a{
+            color: #141ed2;
+            font-size: 16px;
+        }
+       padding: 5px 5px;
+       border: none;
+       background-color: #fff;
+       
+    }
+}
+
+input[type=text],
+[type=password] {
+  margin-bottom: 20px;
+  margin-top: 8px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}

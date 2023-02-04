@@ -1,0 +1,18 @@
+header {
+    ul {
+        background-color: rgb(69, 95, 180);
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+
+        li {
+            color: #fff;
+            list-style-type: disc;
+        }
+    }
+
+    .icon__img {
+        color: #fff;
+        width: 25px;
+    }
+}
